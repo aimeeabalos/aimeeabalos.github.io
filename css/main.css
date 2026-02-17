@@ -737,7 +737,7 @@ article#MyIntro{
 #void:hover,#bubble:hover{
   /*background-color: black;*/
 }
-#chain{
+#chain, #Snap, #Hand, #Mido{
   font-size: 30px;
   line-height: 18px;
   text-align: center;
@@ -1487,3 +1487,4 @@ article#MyIntro{
     margin-left: 18vw;
     }
 }
+
