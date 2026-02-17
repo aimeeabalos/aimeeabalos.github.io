@@ -729,7 +729,7 @@ article#MyIntro{
 }
 
 
-#void,#bubble,#glass,#lostin,#fanrena,#uncertime,#trawl,#chain,#Up,#untouchBox,#HiFive,#Fabry,#majormajor,#filtr,#model,#Crane,#coexist,#liftar,#vroom{
+#void,#bubble,#glass,#lostin,#fanrena,#uncertime,#trawl,#chain,#Up,#untouchBox,#HiFive,#Fabry,#majormajor,#filtr,#model,#Crane,#coexist,#liftar,#vroom,#Snap,#Hand,#Mido{
   width: 270px;
   height: 270px;
   border-bottom: 0.5px solid;
@@ -742,7 +742,7 @@ article#MyIntro{
   line-height: 18px;
   text-align: center;
 }
-#chain span{
+#chain span, , #Snap span, #Hand span, #Mido span {
   font-size: 12px;
 }
 #Fabry{
@@ -998,17 +998,17 @@ article#MyIntro{
   /*animation: spinback 10s linear infinite;*/
 }
 
-#chain .img-top, #coexist .img-top, #liftar .img-top, #HiFive .img-top, #vroom .img-top{
+#chain .img-top, #coexist .img-top, #liftar .img-top, #HiFive .img-top, #vroom .img-top, #Snap .img-top, #Hand .img-top, #Mido .img-top{
   display: none;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 99;
 }
-#chain:hover .img-top, #coexist:hover .img-top, #liftar:hover .img-top, #HiFive:hover .img-top, #vroom:hover .img-top{
+#chain:hover .img-top, #coexist:hover .img-top, #liftar:hover .img-top, #HiFive:hover .img-top, #vroom:hover .img-top, #Snap:hover .img-top, #Hand:hover .img-top, #Mido:hover .img-top {
   display: inline;
 }
-#chain:hover .img-below, #coexist:hover .img-below, #liftar:hover .img-below, #HiFive:hover .img-below, #vroom:hover .img-below{
+#chain:hover .img-below, #coexist:hover .img-below, #liftar:hover .img-below, #HiFive:hover .img-below, #vroom:hover .img-below, #Snap:hover .img-below, #Hand:hover .img-below, #Mido:hover .img-below{
   display: none;
 }
 
@@ -1487,4 +1487,5 @@ article#MyIntro{
     margin-left: 18vw;
     }
 }
+
 
